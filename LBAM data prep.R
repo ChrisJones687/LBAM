@@ -8,5 +8,5 @@ setff
 LBAM_2007 <- st_read(ffIn("LBAM_2007.shp"))
 plot(LBAM_2007)
 
-
+## use terra instead
 LBAM_2007 <- vect(ffIn("LBAM_2007.shp"))
